@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp_SimpleTextEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Simple_Text_Editor" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Name="btnCut" Click="btnCut_Click">Cut</Button>
+            <Button Grid.Column="1" Name="btnCopy" Click="btnCopy_Click">Copy</Button>
+            <Button Grid.Column="2" Name="btnPaste" Click="btnPaste_Click">Paste</Button>
+        </Grid>
+        <TextBox Grid.Row="1" Name="txbSimpleEditor" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto"
+                 VerticalScrollBarVisibility="Auto"></TextBox>
+    
     </Grid>
+    
 </Window>
