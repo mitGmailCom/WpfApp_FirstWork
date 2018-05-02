@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_SimpleTextEditor", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppColorShemeForUser", "WpfAppColorShemeForUser\WpfAppColorShemeForUser.csproj", "{2E9BF14B-78A3-4768-954F-4733840450EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppRunningStatic", "WpfAppRunningStatic\WpfAppRunningStatic.csproj", "{81DC430B-4776-4067-8AE6-2339B86E59C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2E9BF14B-78A3-4768-954F-4733840450EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E9BF14B-78A3-4768-954F-4733840450EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E9BF14B-78A3-4768-954F-4733840450EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DC430B-4776-4067-8AE6-2339B86E59C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DC430B-4776-4067-8AE6-2339B86E59C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DC430B-4776-4067-8AE6-2339B86E59C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DC430B-4776-4067-8AE6-2339B86E59C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
